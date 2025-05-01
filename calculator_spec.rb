@@ -1,8 +1,8 @@
 require_relative 'calculator'
 require 'rspec'
 
-RSpec.describe StringCalculator do
-  let(:calculator) { StringCalculator.new }
+RSpec.describe Calculator do
+  let(:calculator) { Calculator.new }
 
   it "returns 0 for an empty string" do
     expect(calculator.add("")).to eq(0)
